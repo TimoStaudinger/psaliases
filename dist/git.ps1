@@ -21,10 +21,20 @@ function Git-Branch-Delete { git branch -d $args }
 Set-Alias gbd Git-Branch-Delete
 
 # Git commit aliases
-function git-gco { git commit }
-Set-Alias gco git-gco
-function git-gca { git commit --amend }
-Set-Alias gca git-gca
+function Git-Commit { git commit }
+Set-Alias gg Git-Commit
+function Git-Commit-Amend { git commit --amend }
+Set-Alias gca Git-Commit-Amend
+
+# Git checkout aliases
+function Git-Checkout { git checkout $args }
+Set-Alias gco Git-Checkout
+function Git-Checkout-Develop { git checkout develop }
+Set-Alias gcod Git-Checkout-Develop
+function Git-Checkout-Master { git checkout master }
+Set-Alias gcom Git-Checkout-Master
+function Git-Checkout-Staging { git checkout staging }
+Set-Alias gcos Git-Checkout-Staging
 
 # Git fetch aliases
 function Git-Fetch { git fetch }
