@@ -36,6 +36,24 @@ Set-Alias gcom Git-Checkout-Master
 function Git-Checkout-Staging { git checkout staging }
 Set-Alias gcos Git-Checkout-Staging
 
+# Git pull aliases
+function Git-Pull { git pull }
+Set-Alias gpu Git-Pull
+function Git-Pull-Rebase { git pull --rebase }
+Set-Alias gpr Git-Pull-Rebase
+
+# Git push alias
+function Git-Push { git push }
+Set-Alias gpp Git-Push
+
+# Git stash aliases
+function Git-Stash-List { git stash list }
+Set-Alias gsl Git-Stash-List
+function Git-Stash-Pop { git stash pop }
+Set-Alias gsp Git-Stash-Pop
+function Git-Stash-Save { git stash save }
+Set-Alias gss Git-Stash-Save
+
 # Git fetch aliases
 function Git-Fetch { git fetch }
 Set-Alias gf Git-Fetch
