@@ -1,5 +1,5 @@
 # Git status alias
-function Git-Status { git status }
+function Git-Status { git status -sb }
 Set-Alias g Git-Status
 
 # Git add/remove aliases
@@ -24,7 +24,7 @@ Set-Alias gbd Git-Branch-Delete
 function Git-Commit { git commit }
 Set-Alias gg Git-Commit
 function Git-Commit-Amend { git commit --amend }
-Set-Alias gca Git-Commit-Amend
+Set-Alias gga Git-Commit-Amend
 
 # Git checkout aliases
 function Git-Checkout { git checkout $args }
@@ -66,7 +66,6 @@ Set-Alias gd Git-Diff
 
 # Git log aliases
 function Git-Log { git log --graph --abbrev-commit --decorate --date=relative --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all }
-Set-Alias glg Git-Log
+Set-Alias gll Git-Log
 function Git-Log-Oneline { git log --oneline --decorate }
 Set-Alias glo Git-Log-Oneline
-
