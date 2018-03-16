@@ -1,5 +1,5 @@
-# Invoke-Item (Start-Process powershell ((Split-Path $MyInvocation.InvocationName) + "\git.ps1"))
+# A directory containing all alias files that should be loaded
+$aliasesDir = "C:\psaliases"
 
-$profileDir = $Home + "\Documents\WindowsPowerShell"
-
-& "$profileDir\git.ps1"
+# Load all .ps1 files located in $aliasesDir
+Get-ChildItem "${aliasesDir}\*.ps1" | %{.$_}
