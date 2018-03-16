@@ -34,6 +34,8 @@ Set-Alias yrm Yarn-Remove
 # Yarn global aliases
 function Yarn-Global-Add { yarn global add $args }
 Set-Alias yga Yarn-Global-Add
+function Yarn-Global-Remove { yarn global remove $args }
+Set-Alias ygr Yarn-Global-Remove
 
 # Yarn link aliases
 function Yarn-Link { yarn link $args }
