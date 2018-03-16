@@ -18,7 +18,7 @@
 
 ### Yarn add/remove
 - **ya ... :** `yarn add ...`
-- **yr ... :** `yarn remove ...`
+- **yrm ... :** `yarn remove ...`
 
 ### Yarn global
 - **yga ... :** `yarn global add ...`
