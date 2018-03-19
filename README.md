@@ -4,8 +4,8 @@ As a heavy PowerShell user, you'll want to make your life easier by using short 
 Inspired by and borrowing from [.aliases](https://github.com/algotech/dotaliases).
 
 ## Available Aliases
-- [**Git**](https://github.com/TimoSta/psaliases/blob/master/doc/git.md) - the version control system
-- [**Yarn**](https://github.com/TimoSta/psaliases/blob/master/doc/yarn.md) - the node dependency manager
+- [**Git**](https://github.com/TimoSta/psaliases/blob/master/doc/git.md) – the version control system
+- [**Yarn**](https://github.com/TimoSta/psaliases/blob/master/doc/yarn.md) – the node dependency manager
 
 ## Installation
 To make aliases permanently available, they need to be set in your system's PowerShell profile. If you haven't created a profile yet, or are unsure if you did, follow [this guide](https://blogs.technet.microsoft.com/heyscriptingguy/2012/05/21/understanding-the-six-powershell-profiles/) to create one now.
