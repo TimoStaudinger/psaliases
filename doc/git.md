@@ -30,6 +30,7 @@
 
 ### Git push
 - **gpp:** `git push`
+- **gpf:** `git push -f`
 
 ### Git stash
 - **gsl:** `git stash list`

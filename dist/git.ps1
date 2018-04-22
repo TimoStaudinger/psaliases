@@ -42,9 +42,12 @@ Set-Alias gpu Git-Pull
 function Git-Pull-Rebase { git pull --rebase }
 Set-Alias gpr Git-Pull-Rebase
 
-# Git push alias
+# Git push aliases
 function Git-Push { git push }
 Set-Alias gpp Git-Push
+
+function Git-Push-Force { git push -f }
+Set-Alias gpf Git-Push-Force
 
 # Git stash aliases
 function Git-Stash-List { git stash list }
