@@ -55,7 +55,7 @@ Set-Alias yul Yarn-Upgrade-Latest
 function Yarn-Upgrade-Interactive { yarn upgrade-interactive }
 Set-Alias yui Yarn-Upgrade-Interactive
 function Yarn-Upgrade-Interactive-Latest { yarn upgrade-interactive --latest }
-Set-Alias yui Yarn-Upgrade-Interactive-Latest
+Set-Alias yuil Yarn-Upgrade-Interactive-Latest
 
 # Yarn why alias
 function Yarn-Why { yarn why $args }
